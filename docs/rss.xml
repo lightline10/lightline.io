@@ -1,4 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>lightline</title><link>https://lightline10.github.io/lightline.io</link><description>lightline的个人分享博客，用心去写，写给未来的自己，也写给你。</description><copyright>lightline</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://i04piccdn.sogoucdn.com/2e47890d93908ebe</url><title>avatar</title><link>https://lightline10.github.io/lightline.io</link></image><lastBuildDate>Fri, 09 May 2025 16:23:43 +0000</lastBuildDate><managingEditor>lightline</managingEditor><ttl>60</ttl><webMaster>lightline</webMaster><item><title>Java 各种并发机制</title><link>https://lightline10.github.io/lightline.io/post/Java%20-ge-zhong-bing-fa-ji-zhi.html</link><description>### Java 各种锁机制
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>lightline</title><link>https://lightline10.github.io/lightline.io</link><description>lightline的个人分享博客，用心去写，写给未来的自己，也写给你。</description><copyright>lightline</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://i04piccdn.sogoucdn.com/2e47890d93908ebe</url><title>avatar</title><link>https://lightline10.github.io/lightline.io</link></image><lastBuildDate>Sat, 10 May 2025 03:03:57 +0000</lastBuildDate><managingEditor>lightline</managingEditor><ttl>60</ttl><webMaster>lightline</webMaster><item><title>JVM探讨</title><link>https://lightline10.github.io/lightline.io/post/JVM-tan-tao.html</link><description>1.JVM是什么？
+Java Virtual Machine 是Java程序的运行环境（java二进制字节码的运行环境）
+
+**好处：**
+- 一次编写，到处运行
+- 自动内存管理，垃圾回收机制
+
+2.JVM的位置
+
+![Image](https://github.com/user-attachments/assets/c9576341-520c-4a20-9d61-d2c39f26a199)
+**运行流程：**
+（1）类加载器（ClassLoader）把Java代码转换为字节码
+（2）运行时数据区（Runtime Data Area）把字节码加载到内存中，而字节码文件只是JVM的一套指令集规范，并不能直接交给底层系统去执行，而是有执行引擎运行
+（3）执行引擎（Execution Engine）将字节码翻译为底层系统指令，再交由CPU执行去执行，此时需要调用其他语言的本地库接口（Native Method Library）来实现整个程序的功能。</description><guid isPermaLink="true">https://lightline10.github.io/lightline.io/post/JVM-tan-tao.html</guid><pubDate>Sat, 10 May 2025 03:03:28 +0000</pubDate></item><item><title>Java 各种并发机制</title><link>https://lightline10.github.io/lightline.io/post/Java%20-ge-zhong-bing-fa-ji-zhi.html</link><description>### Java 各种锁机制
 Java 提供了多种锁机制，以满足不同的并发场景需求。</description><guid isPermaLink="true">https://lightline10.github.io/lightline.io/post/Java%20-ge-zhong-bing-fa-ji-zhi.html</guid><pubDate>Fri, 09 May 2025 12:39:53 +0000</pubDate></item><item><title>Java 各种并发机制</title><link>https://lightline10.github.io/lightline.io/post/Java%20-ge-zhong-bing-fa-ji-zhi.html</link><description>### Java 各种锁机制
 Java 提供了多种锁机制，以满足不同的并发场景需求。</description><guid isPermaLink="true">https://lightline10.github.io/lightline.io/post/Java%20-ge-zhong-bing-fa-ji-zhi.html</guid><pubDate>Fri, 09 May 2025 12:32:54 +0000</pubDate></item><item><title>text</title><link>https://lightline10.github.io/lightline.io/post/text.html</link><description>2025/4/25。</description><guid isPermaLink="true">https://lightline10.github.io/lightline.io/post/text.html</guid><pubDate>Fri, 25 Apr 2025 12:25:54 +0000</pubDate></item></channel></rss>
